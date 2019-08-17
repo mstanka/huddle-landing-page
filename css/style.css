@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap');
+
+:root {
+  --primary-color: #ff51bf;
+  --neutral-color-light: #eafaff;
+  --neutral-color-dark: #00242d;
+  --neutral-color: #7f8d98;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 4rem;
+  box-sizing: border-box;
+  max-width: 144rem;
+  margin: auto;
+  justify-content: center;
+}
+.p-1 { 
+  padding: 3rem; 
+} 
+.p-2 {
+  padding: 6rem;
+}
+.py-1 {
+  padding: 12rem 6rem;
+}
+.btn { 
+  padding: .5rem 5rem;
+  border-radius: 4rem;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.l-heading {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+.m-heading {
+  font-weight: 700;
+}
+
+/*Home*/
+#home {
+  height: 100vh;
+  background: var(--neutral-color-light) url(../img/bg-hero-desktop.svg) no-repeat center center/cover;
+}
+.home__bar {
+  display: flex;
+}
+.home__bar--logo {
+  flex: 1;
+ }
+.home__bar--button {
+  border: var(--neutral-color-light) .1rem solid;
+  background-color: #fff;
+  box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .2);
+}
+.home__bar--button a {
+  color: var(--neutral-color-dark);
+  font-weight: 700;
+}
+.home__content {
+  display: flex;
+}
+.home__content > div {
+  flex: 1;
+}
+.home__content--button {
+  background-color: var(--primary-color);
+  max-width: 50%;
+  margin-top: 2rem;
+}
+.home__content--button a {
+  color: #fff;
+}
+.home__content--image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Features sections */
+#feature,
+.feature__grow,
+.feature__conversation,
+.feature__users {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+.feature__grow,
+.feature__users {
+  flex-direction: row-reverse;
+}
+.feature__container div,
+.feature__grow div,
+.feature__conversation div,
+.feature__users div {
+  flex: 1;
+}
+.feature__grow,
+.feature__conversation,
+.feature__users {
+  border: var(--neutral-color-light) .1rem solid;
+  box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .2);
+  border-radius: 3rem;
+  padding: 5rem;
+  margin: 5rem;
+}
+.feature--image img {
+  max-width: 100%;
+  height: auto;
+}
+.feature--text p {
+  color: var(--neutral-color);
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
