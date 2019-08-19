@@ -1,32 +1,42 @@
+body {
+  max-width: auto;
+}
+.p-2 {
+  padding: 0;
+}
 .btn { 
   padding: .2rem 3rem;
-  border-radius: 4rem;
-  text-align: center;
 }
 .l-heading {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 /*Home*/
 #home {
-  height: 100vh;
   background: var(--neutral-color-light) url(../img/bg-hero-mobile.svg) no-repeat center center/cover;
 }
 .home__bar--logo img {
-  max-width: 70%;
+  max-width: 80%;
   height: auto;
 }
-
 .home__content {
+  flex-direction: column;
+  text-align: center;
+}
+.home__content--text {
+  justify-content: center;
+}
+.home__content--button {
+  max-width: 50%;
+ }
+
+/* Features sections */
+.feature__grow,
+.feature__conversation,
+.feature__users {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-.home__content--text {
   align-items: center;
-}
-.home__content--button {
-  max-width: 80%;
 }
