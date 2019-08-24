@@ -162,7 +162,6 @@ a {
   box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .2);
   border-radius: 3rem;
   padding: 5rem 10rem;
-  margin: 3rem;
 }
 .footer__action--button {
   background-color: var(--primary-color);

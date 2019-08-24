@@ -58,10 +58,6 @@ body {
 }
 .footer__action {
   top: -5%;
-  margin: 1rem;
-}
-.footer__action--text {
-  font-size: 1.4rem;
 }
 .footer__action--button {
   margin-top: 0;
@@ -76,4 +72,12 @@ body {
   text-align: center;
 }
 
+@media (max-width: 650px) {
+  .footer__action {
+    padding: 2rem 3rem;
+  }
+  .footer__action--text {
+    font-size: 1.4rem;
+  }
+}
 
